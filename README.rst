@@ -14,7 +14,7 @@ Check out netinfo to `/opt/`::
 
 Setup the virtualenv::
 
-    $ virtualenv -p python3 venv3
+    $ cd netinfo && virtualenv -p python3 venv3
 
 Activate the virtualenv::
 
@@ -24,7 +24,7 @@ Install the requirements::
 
     $ (venv3) pip install -r requirements.txt
 
-Install the services and start them. You can then access the API through http://localhost:7777 for more details.
+Install the services and start them. You can then access the API through http://localhost:7777 for more details and to initialize the database.
 
 Sample Output
 -------------
